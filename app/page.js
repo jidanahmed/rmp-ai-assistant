@@ -1,5 +1,5 @@
 'use client'
-import { Box, Button, Stack, TextField } from '@mui/material'
+import { Box, Button, Stack, TextField, AppBar, Toolbar, Typography } from '@mui/material'
 import { useState, React } from 'react'
 
 export default function Home() {
@@ -56,7 +56,7 @@ export default function Home() {
       height="100vh"
       display="flex"
       flexDirection="column"
-      justifyContent="center"
+      // justifyContent="center"
       alignItems="center"
       bgcolor="white" // Changed background color to white
     >
@@ -70,8 +70,9 @@ export default function Home() {
 
       <Stack
         direction={'column'}
-        width="500px"
-        height="700px"
+        // width="500px"
+        width="100vw"
+        height="93vh"
         border="1px solid black"
         p={2}
         spacing={3}
