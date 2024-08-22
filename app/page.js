@@ -50,6 +50,7 @@ export default function Home() {
 
 
   return (
+
     <Box
       width="100vw"
       height="100vh"
@@ -59,6 +60,14 @@ export default function Home() {
       alignItems="center"
       bgcolor="white" // Changed background color to white
     >
+      <AppBar position="static" sx={{ backgroundColor: '#3f51b5' }}>
+        <Toolbar>
+          <Typography variant="h6" sx={{ flexGrow: 1 }}>
+            Jidan's Rate My Professor AI Assistant
+          </Typography>
+        </Toolbar>
+      </AppBar>
+
       <Stack
         direction={'column'}
         width="500px"
